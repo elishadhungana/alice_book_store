@@ -16,17 +16,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
   <body>
+
     <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
             <a href="../../AliceBooks/index.php" class="navbar-brand">
                 <h3 class="px-5">
-                    <i class="fas fa-shopping-basket"></i> AliceBook Store
+                    <!-- <i class="fas fa-shopping-basket"></i> AliceBook Store -->
+                    <i>AliceBook Store</i>
                 </h3>
             </a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../../AliceBooks/index.php">Home</a>
+                        <a class="nav-link" href="../../AliceBooks/index.php">Homes</a>
                     </li>
 
                     <li class="nav-item">
@@ -38,7 +40,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../../AliceBooks/index.php">Contact</a>
+                        <a class="nav-link" href="../../AliceBooks/contact.php">Contact</a>
                     </li>
 
                     <?php

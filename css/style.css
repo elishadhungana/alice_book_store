@@ -8,7 +8,7 @@ html, body{
 }
 
 .nav-link{
-  font-size: 1.1em !important;
+  font-size: 1em !important;
 }
 
 .display-7{
@@ -69,6 +69,8 @@ html, body{
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
+
+
 .fa-code {
   color: #e54d26;
 }
