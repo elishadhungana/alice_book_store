@@ -4,26 +4,77 @@
     require_once '../AliceBooks/cart/header.php';
 ?>
 
-<section class="signup-form">
-    <h2>Log In</h2>
-    <div class="signup-form-form">
-        <form action="includes/login.inc.php" method="POST">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="password" placeholder="Password">
-            <button type="submit" name="submit">Log In</button>
-        </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../AliceBooks/css/cart/style.css">
+  <!-- bootstrap css CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+<section class="h-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card card-registration my-4">
+          <div class="row g-0">
+            <div class="col-xl-6 d-none d-xl-block">
+              <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                alt="Sample photo" class="img-fluid"
+                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" /> -->
+                <!-- <img src="../AliceBooks/images/register.jpg" alt="Sample photo"
+                style="border-top-left-radius: .35rem; border-bottom-left-radius: .25rem;" /> -->
+            </div>
+            <div class="col-xl-6">
+              <div class="card-body p-md-5 text-black">
+                <h3 class="mb-5 text-uppercase">Log In form</h3>
+                <form action="includes/login.inc.php" method="POST">
+                <div class="row">
+
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" name="email" id="form3Example1n" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Example1n">Email</label>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" name="password" id="form3Example1n" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Example1n">Password</label>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="d-flex justify-content-end pt-3">
+                  <button type="submit" name="submit" class="btn btn-warning btn-lg ms-2">Log In</button>
+                </div>
+
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <?php
-      if (isset($_GET["error"])) {
-        if ($_GET["error"] == "emptyinput") {
-          echo "<p>Fill in all fields!</p>";
+  </div>
+
+  <?php
+        if (isset($_GET["error"])) {
+          if ($_GET["error"] == "emptyinput") {
+            echo "<p>Fill in all fields!</p>";
+          }
+          elseif ($_GET["error"] == "wronglogin") {
+              echo "<p>Invalid login credentials!</p>";
+          }
         }
-        elseif ($_GET["error"] == "wronglogin") {
-            echo "<p>Invalid login credentials!</p>";
-        }
-      }
-    ?>
-</section
+      ?>
+</section>
+
 
 <?php
     # footer component
