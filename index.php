@@ -74,7 +74,7 @@
                     <img src="images/officeitems.png" alt="book">
                     <h3>OFFICE ITEMS</h3>
                     <p>Built with the latest version of HTML, HTML5.</p>
-                    <!-- <a href="#" class="btn btn-primary">BOOKS</a> -->
+                    <a href="#" class="btn btn-primary">BOOKS</a>
                 </div>
             </div>
 

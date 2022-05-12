@@ -1,5 +1,18 @@
 <?php
 
+function emptyInputFeedbackForm($fullName, $email, $subject, $message){
+    $result;
+    if (empty($fullName)
+            || empty($email)
+            || empty($subject)
+            || empty($message)) {
+        $result = true;
+    } else {
+        $result = false;
+    }
+    return $result;
+}
+
 function emptyInputSignup($firstName, $lastName, $email, $phoneNumber, $password, $confirmPassword){
     $result;
     if (empty($firstName)
@@ -110,3 +123,20 @@ function loginUser($conn, $userName, $password) {
       exit();
     }
   }
+
+  function sendFeedback($conn, $fullName, $email, $subject, $message){
+      $sql = "INSERT INTO feedback (full_name, email, subject, message) VALUES (?, ?, ?, ?);";
+      $stmt = mysqli_stmt_init($conn);
+
+      if (!mysqli_stmt_prepare($stmt, $sql)) {
+          header("location: ../feedback.php?error=stmtfailed");
+          exit();
+      }
+
+      mysqli_stmt_bind_param($stmt, "ssss", $fullName, $email, $subject, $message);
+      mysqli_stmt_execute($stmt);
+      mysqli_stmt_close($stmt);
+
+      header("location: ../feedback.php?error=none");
+      exit();
+    }

@@ -58,6 +58,9 @@
                         echo '<li class="nav-item">
                             <a class="nav-link" href="../AliceBooks/login.php">Login</a>
                         </li>';
+                        echo '<li class="nav-item">
+                            <a class="nav-link" href="../AliceBooks/feedback.php">Feedback</a>
+                        </li>';
                       }
                     ?>
                     <button class="navbar-toggler"

@@ -11,13 +11,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+       p {
+           color: red;
+           font-size: 20px;
+           text-align: center;
+       }
+   </style>
   <link rel="stylesheet" href="../../AliceBooks/css/cart/style.css">
   <!-- bootstrap css CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-<section class="h-100">
-  <div class="container py-5 h-100">
+<section class="h-70">
+  <div class="container py-5 h-70">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col">
         <div class="card card-registration my-4">
@@ -80,8 +87,7 @@
                 <div class="d-flex justify-content-end pt-3">
                   <button type="submit" name="submit" class="btn btn-warning btn-lg ms-2">Sign Up</button>
                 </div>
-
-              </form>
+                </form>
               </div>
             </div>
           </div>
@@ -93,22 +99,22 @@
 <?php
   if (isset($_GET["error"])) {
     if ($_GET["error"] == "emptyinput") {
-      echo "<p>Fill in all fields!</p>";
+      echo "<p><strong>Fill in all fields!</strong></p>";
     }
     elseif ($_GET["error"] == "invalidemail") {
-        echo "<p>Please enter proper email format!</p>";
+        echo "<p><strong>Please enter proper email format!</strong></p>";
     }
     elseif ($_GET["error"] == "passworddonotmatch") {
-      echo "<p>Password not matched!</p>";
+      echo "<p><strong>Password not matched!</strong></p>";
     }
     elseif ($_GET["error"] == "emailalreadytaken") {
-      echo "<p>Email already registered!</p>";
+      echo "<p><strong>Email already registered!</strong></p>";
     }
     elseif ($_GET["error"] == "stmtfailed") {
-      echo "<p>Something went wrong, try again!</p>";
+      echo "<p><strong>Something went wrong, try again!</strong></p>";
     }
     elseif ($_GET["error"] == "none") {
-      echo "<p>You are Signed Up!</p>";
+      echo "<p><strong>You are Signed Up!</strong></p>";
     }
   }
 ?>
