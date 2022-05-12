@@ -16,9 +16,7 @@ function component($productname, $productprice, $productimg, $productid){
                                 <i class=\"fas fa-star\"></i>
                                 <i class=\"far fa-star\"></i>
                             </h6>
-                            <p class=\"card-text\">
-                                Some quick example text to build on the card.
-                            </p>
+                          
                             <h5>
                                 <small><s class=\"text-secondary\">$519</s></small>
                                 <span class=\"price\">$productprice</span>

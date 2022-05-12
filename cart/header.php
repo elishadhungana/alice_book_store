@@ -28,15 +28,15 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../../AliceBooks/index.php">Homes</a>
+                        <a class="nav-link" href="../../AliceBooks/index.php">Home</a>
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="../../AliceBooks/index.php">About</a>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../../AliceBooks/index.php">Connect</a>
+                        <a class="nav-link" href="../../AliceBooks/privacy-policy.php">Privacy-Policy</a>
                     </li>
 
                     <li class="nav-item">
@@ -48,18 +48,22 @@
                         echo '<li class="nav-item">
                             <a class="nav-link" href="profile.php">Profile</a>
                         </li>';
+
                         echo '<li class="nav-item">
                             <a class="nav-link" href="../AliceBooks/includes/logout.inc.php">Logout</a>
                         </li>';
                       } else {
                         echo '<li class="nav-item">
-                            <a class="nav-link" href="../AliceBooks/signup.php">SignUp</a>
+                            <a class="nav-link" href="../AliceBooks/feedback.php">Feedback</a>
                         </li>';
+
+
+
                         echo '<li class="nav-item">
                             <a class="nav-link" href="../AliceBooks/login.php">Login</a>
                         </li>';
                         echo '<li class="nav-item">
-                            <a class="nav-link" href="../AliceBooks/feedback.php">Feedback</a>
+                            <a class="nav-link" href="../AliceBooks/signup.php">Register</a>
                         </li>';
                       }
                     ?>

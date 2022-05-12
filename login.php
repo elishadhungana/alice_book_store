@@ -44,14 +44,14 @@
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="email" id="form3Example1n" class="form-control form-control-lg" />
+                      <input required type="text" name="email" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Email</label>
                     </div>
                   </div>
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="password" id="form3Example1n" class="form-control form-control-lg" />
+                      <input required type="password" name="password" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Password</label>
                     </div>
                   </div>

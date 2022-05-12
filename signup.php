@@ -43,43 +43,43 @@
                 <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="firstName" id="form3Example1m" class="form-control form-control-lg" />
+                      <input  required type="text" name="firstName" id="form3Example1m" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1m">First name</label>
                     </div>
                   </div>
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="lastName" id="form3Example1n" class="form-control form-control-lg" />
+                      <input required type="text" name="lastName" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Last name</label>
                     </div>
                   </div>
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="email" id="form3Example1n" class="form-control form-control-lg" />
+                      <input required type="text" name="email" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Email</label>
                     </div>
                   </div>
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="phoneNumber" id="form3Example1n" class="form-control form-control-lg" />
+                      <input required type="text" name="phoneNumber" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Phone Number</label>
                     </div>
                   </div>
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="password" id="form3Example1n" class="form-control form-control-lg" />
+                      <input required type="text" name="password" id="form3Example1n" class="form-control form-control-lg" />
                       <label class="form-label" for="form3Example1n">Password</label>
                     </div>
                   </div>
 
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" name="confirmPassword" id="form3Example1n" class="form-control form-control-lg" />
-                      <label class="form-label" for="form3Example1n">confirm Password</label>
+                      <input required type="text" name="confirmPassword" id="form3Example1n" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Example1n">Confirm Password</label>
                     </div>
                   </div>
 

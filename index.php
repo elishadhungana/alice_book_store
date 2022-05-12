@@ -83,82 +83,16 @@
     </div>
 </div> -->
 
+<h2 style="color: red; padding: 40px; text-align: center; "> <strong>Welcome To Alice Book Store </strong> </h2>
 
 <!--- Browse books -->
-<div class="container-fluid padding">
+<!-- <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
             <h4 class="display-5">Books </h4>
         </div>
     </div>
-</div>
-
-
-<!--- Cards -->
-<div class="container">
-  <div class="row text-center py-5">
-    <?php
-      $sql = "SELECT * FROM book_product";
-      $result = mysqli_query($conn, $sql);
-      if (mysqli_num_rows($result) > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-          component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
-        }
-      }
-    ?>
-  </div>
-</div>
-
-<!--- Browse Stationeries -->
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h4 class="display-5">Stationeries </h4>
-        </div>
-    </div>
-</div>
-
-
-<!--- Cards -->
-<div class="container">
-  <div class="row text-center py-5">
-    <?php
-      $sql = "SELECT * FROM stationeries_product";
-      $result = mysqli_query($conn, $sql);
-      if (mysqli_num_rows($result) > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-          component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
-        }
-      }
-    ?>
-  </div>
-</div>
-
-<!--- Browse OfficeItems -->
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h4 class="display-5">Office Items </h4>
-        </div>
-    </div>
-</div>
-
-
-<!--- Cards -->
-<div class="container">
-  <div class="row text-center py-5">
-    <?php
-      $sql = "SELECT * FROM office_item_product";
-      $result = mysqli_query($conn, $sql);
-      if (mysqli_num_rows($result) > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-          component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
-        }
-      }
-    ?>
-  </div>
-</div>
-
+</div> -->
 
 <!-- About Alice Book Store -->
 <div class="container-fluid padding">
@@ -186,6 +120,74 @@
     </div>
 </div>
 
+  <h4 class="display-5" style="text-align: center;"> <strong>Books </strong> </h4>
+
+<!--- Cards -->
+<div class="container">
+  <div class="row text-center py-5">
+    <?php
+      $sql = "SELECT * FROM book_product";
+      $result = mysqli_query($conn, $sql);
+      if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+          component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
+        }
+      }
+    ?>
+  </div>
+</div>
+
+<!--- Browse Stationeries -->
+<!-- <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h4 class="display-5">Stationeries </h4>
+        </div>
+    </div>
+</div> -->
+
+<h4 class="display-5" style="text-align: center;"> <strong>Stationeries </strong> </h4>
+
+<!--- Cards -->
+<div class="container">
+  <div class="row text-center py-5">
+    <?php
+      $sql = "SELECT * FROM stationeries_product";
+      $result = mysqli_query($conn, $sql);
+      if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+          component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
+        }
+      }
+    ?>
+  </div>
+</div>
+
+<!--- Browse OfficeItems -->
+<!-- <div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h4 class="display-5">Office Items </h4>
+        </div>
+    </div>
+</div> -->
+
+<h4 class="display-5" style="text-align: center;"> <strong>Office Items </strong></h4>
+
+<!--- Cards -->
+<div class="container">
+  <div class="row text-center py-5">
+    <?php
+      $sql = "SELECT * FROM office_item_product";
+      $result = mysqli_query($conn, $sql);
+      if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+          component($row['product_name'], $row['product_price'], $row['product_image'], $row['id']);
+        }
+      }
+    ?>
+  </div>
+</div>
 
 
 <!--- Two Column Section -->
