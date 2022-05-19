@@ -7,9 +7,13 @@ html, body{
   color:#222;
 }
 
-.nav-link{
-  font-size: 1em !important;
+.nav-link li a:hover{
+  font-size: 1.1em !important;
+color: 	#FFFFFF;
+padding: inherit;
 }
+
+
 
 .display-7{
   font-family: 'Lobster Two', cursive;

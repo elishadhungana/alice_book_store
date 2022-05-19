@@ -102,17 +102,16 @@
         </div>
         <div class="col-md-12 col-lg-6">
             <h2>About Alice Book Store</h2>
-            <p>The columns will automatically stack on each other when
-                the screen is less than 576px wide.</p>
-            <p>Resize the browserwindow to see the effect. Responsive web
-                design has become more important as the amount of mobile traffic now
-                accounts for more than half of total internet traffic.</p>
-            <p>Resize the browserwindow to see the effect. Responsive web
-                design has become more important as the amount of mobile traffic now
-                accounts for more than half of total internet traffic.</p>
+            <p>Alice Book Store is founded in 1995. It is located in Holborn Central london</p>
+          <p>  It is situated near the universities and a stationary market place. </p>
+            <p>Alice book store is a place where different kinds of textbooks or reference books are sold.
+               It is a very important place for all especially for the students , normal users, office users. Generally a book shop is situated near school, college or a stationary market place.
+              There are kept many shelves on which the books are nicely arranged..</p>
+              <p>We provide all the textbooks, office items, stationeries, laptops and computer in reasonable prices. The books are categorized according to the types. We can buy text book, story book, dictionary, pen, pencil, rubber etc. also from it. A bookseller is always available to serve the customers. A bookshop provides us with facilities to expand our knowledge.
 
-            <p>It can also display the web page differently depending on the
-                screen size or viewing device.</p>
+            <p>Additionally, you can also get office items and stationeries in Alice Book Store.</p>
+
+            <p>You will get a special discount on purchasing items over 10$.</p>
             <br>
             <a href="#" class="btn btn-primary">Learn More</a>
         </div>
@@ -195,14 +194,12 @@
     <div class="row padding">
         <div class="col-md-12 col-lg-6">
             <h2>Why choose Alice Book Store? </h2>
-            <p>We know that greatness in a disruptive era requires bold
-                ambition, curious talent and a culture that believes we're
-                smarter together.</p>
-            <p>We approach every challenge hostically, with best-in-class
-                expertise in data, creativity, media, technology, search, social and
-                more. We call this Alchemy. It has the power to build our clients'
-                brands and transform their business. And white it may seem like
-                magic, we've got it down to a science.
+            <p>10 % Special discount for all the students.</p>
+            <p>We provide all the textbooks, office items, stationeries, laptops and computer in reasonable prices.
+              We sell new books for readers of all ages and interests. Stop in to browse and get reading recommendations from our staff
+               Once you are a member of Alice Book Store, you will get a discount card and get offer of 5% extra on next purchase.
+               <p>We provide all the textbooks, office items, stationeries, laptops and computer in reasonable prices. The books are categorized according to the types. We can buy text book, story book, dictionary, pen, pencil, rubber etc. also from it. A bookseller is always available to serve the customers. A bookshop provides us with facilities to expand our knowledge.
+
             </p>
 
         </div>

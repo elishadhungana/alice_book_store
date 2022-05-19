@@ -10,7 +10,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Alice Book Store</title>
   <style>
        p {
            color: red;
@@ -38,7 +38,7 @@
             </div>
             <div class="col-xl-6">
               <div class="card-body p-md-5 text-black">
-                <h3 class="mb-5 text-uppercase">Student registration form</h3>
+                <h3 class="mb-5 text-uppercase">User Registration Form</h3>
                 <form action="includes/signup.inc.php" method="POST">
                 <div class="row">
                   <div class="col-md-6 mb-4">

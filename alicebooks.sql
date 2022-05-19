@@ -20,6 +20,10 @@ OFFICE ITEM PRODUCT TABLE
 -----------------------------------
 CREATE TABLE `alicebooks`.`office_item_product` ( `id` INT NOT NULL AUTO_INCREMENT , `product_name` VARCHAR(255) NOT NULL , `product_price` VARCHAR(255) NOT NULL , `product_image` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
+CAROUSEL TABLE
+--------------------------------------
+CREATE TABLE `alicebooks`.`a` ( `id` INT NOT NULL AUTO_INCREMENT , `image_path` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
 FEEDBACK TABLE
 ----------------------------------
 CREATE TABLE `alicebooks`.`feedback` ( `id` INT NOT NULL AUTO_INCREMENT , `full_name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `subject` VARCHAR(255) NOT NULL , `message` LONGTEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

@@ -10,7 +10,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Alice Book Store</title>
   <style>
        section {
          padding: 50px;
@@ -25,10 +25,13 @@
   <section class="mb-4">
 
 <h2>PRIVACY POLICY</h2>
-<p><strong>[COMPANY NAME HERE]</strong> (the “Company”) is committed to protecting the privacy of its users. This Privacy Policy (“Privacy Policy”) is designed to help you understand what information we gather, how we use it, what we do to protect it, and to assist you in making informed decisions when using our website.  Unless otherwise indicated below, this Privacy Policy applies to any website that references this Privacy Policy, any Company website, as well as any data the Company may collect across partnered and unaffiliated sites.</p>
+<p><strong>ALICE BOOK STORE</strong>is committed to protecting the privacy of its users. This Privacy Policy (“Privacy Policy”) is designed to help you understand what information we gather, how we use it, what we do to protect it, and to assist you in making informed decisions when using our website.  Unless otherwise indicated below, this Privacy Policy applies to any website that references this Privacy Policy, any Company website, as well as any data the Company may collect across partnered and unaffiliated sites.</p>
 <p>For purposes of this Agreement, the terms “we,” “us,” and “our” refer to the Company. “You” refers to you, as a user of the website. </p>
 <h2>I. CONSENT</h2>
-<p>By accessing our website, you accept our Privacy Policy and Terms of Use, and you consent to our collection, storage, use and disclosure of your personal information as described in this Privacy Policy. In addition, by using our website, or services across partnered and unaffiliated sites, you are accepting the policies and practices described in this Privacy Policy. Each time you visit our website, and any time you voluntarily provide us with information, you agree that you are consenting to our collection, use and disclosure of the information that you provide, and you are consenting to receive emails or otherwise be contacted, as described in this Privacy Policy. Whether or not you register or do any sort of business with us, this Privacy Policy applies to all users of the website.</p>
+<p>Why is a GDPR Privacy Policy Important?
+Personal data is big business. Companies like Google and Facebook have revenues larger than some countries. They made their fortunes by processing people's personal data.
+
+The GDPR sets the rules about how personal data should be processed in the EU. It also provides rights to individuals regarding their personal data. Without privacy laws like the GDPR, people would lose control over the information that businesses and governments have collected about them..</p>
 <h2>II. INFORMATION WE COLLECT</h2>
 <p>We may collect both “Non-Personal Information” and “Personal Information” about you. “Non-Personal Information” includes information that cannot be used to personally identify you, such as anonymous usage data, general demographic information we may collect, referring/exit pages and URLs, platform types, preferences you submit and preferences that are generated based on the data you submit and number of clicks. “Personal Information” includes information that can be used to personally identify you, such as your name, address and email address.</p>
 <h3>Google Analytics</h3>

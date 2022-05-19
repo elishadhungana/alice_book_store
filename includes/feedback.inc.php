@@ -22,3 +22,15 @@
       header("location: ../feedback.php");
       exit();
   }
+
+  // $to = 'amrit.exotrac@gmail.com';
+  // $subject = 'Form Submission';
+  // $message = $message;
+  // $headers = "From: ".$email;
+  //
+  // if (mail($to, $subject, $message, $headers)) {
+  //   echo "<h1>Sent Successfully! Thank You"." ".$fullName.", We will contact you shortly!</h1>";
+  // } else {
+  //   echo "Something went wrong";
+  // }
+// }
